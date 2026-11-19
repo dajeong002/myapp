@@ -1,10 +1,10 @@
 import streamlit as st 
 
-st.title("상자그림 수업 도구")
+st.title("정수와 유리수의 덧셈과 뺄셈")
 st.info("먼저 학번을 입력해주세요. 활동 결과는 이 학번으로 저장이 됩니다. ")
 # alt + z(window) / option + z(mac)
 
-student_id = st.text_input("학번 (예:30101)", 
+student_id = st.text_input("학번 (예:10101)", 
 value = st.session_state.get("학번", ""))
 
 if student_id:
